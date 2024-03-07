@@ -88,3 +88,27 @@ body{
   display: flex;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 600px){
+  .button{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%
+  }
+  .nextQuote{
+    width: 100%
+  }
+  .quote{
+    font-size: 15px;
+  }
+  .author{
+    font-size: 10px
+  }
+  .btn{
+    transform: scale(0.5)
+  }
+  .btn-left{
+    justify-content: space-evenly;
+    width: 100%
+  }
+}
